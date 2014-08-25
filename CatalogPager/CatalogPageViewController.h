@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CatalogPageViewController.h
 //  CatalogPager
 //
 //  Created by Ilter Cengiz on 25/08/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CatalogPageViewController : UICollectionViewController
+
+@property NSArray *catalogItems;
 
 @end
